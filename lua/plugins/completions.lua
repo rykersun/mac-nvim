@@ -3,6 +3,7 @@ return {
     config = function()
       -- Set up nvim-cmp.
       local cmp = require'cmp'
+      local cmp_select_opts = {behavior = cmp.SelectBehavior.Select}
 
       require("luasnip.loaders.from_vscode").lazy_load()
 
