@@ -19,9 +19,10 @@ return {
 
 
             })
+            local capabilities = require('cmp_nvim_lsp').default_capabilities()
             require('mason-lspconfig').setup_handlers({
               function(server)
-                lspconfig[server].setup({}) -- auto setup the languages in above turple
+                lspconfig[server].setup({capabilities = capabilities}) -- auto setup the languages in above turple
               end,
             })
 
