@@ -2,7 +2,10 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
         local lspconfig = require('lspconfig')
+
         lspconfig.lua_ls.setup {}
+        lspconfig.pylsp.setup {}
+
         vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
         vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
 
@@ -19,21 +22,7 @@ return {
           end,
           {}
         )
-        -- Command to toggle diagnostics
-        vim.api.nvim_create_user_command(
-          'DiagnosticsToggle',
-          function()
-            local current_value = vim.diagnostic.is_disabled()
-            if current_value then
-              vim.diagnostic.enable()
-            else
-              vim.diagnostic.disable()
-            end
-          end,
-          {}
-        )
         vim.keymap.set('n', '<leader>d', '<Cmd>DiagnosticsToggleVirtualText<CR>')
-        vim.keymap.set('n', '<leader>D', '<Cmd>DiagnosticsToggle<CR>')
 
     end
 }
