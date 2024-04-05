@@ -25,7 +25,7 @@ return {
               end,
               {}
             )
-            vim.keymap.set('n', '<leader>d', '<Cmd>DiagnosticsToggleVirtualText<CR>')
+            vim.keymap.set('n', 'td', '<Cmd>DiagnosticsToggleVirtualText<CR>')
 
         end
     },
