@@ -26,4 +26,12 @@ return {
             'rafamadriz/friendly-snippets', 
         }, 
     }, 
+    { -- mason
+        "williamboman/mason.nvim", dependencies = {
+            "williamboman/mason-lspconfig.nvim",
+        }, 
+    }, 
+    { -- lspconfig
+        "neovim/nvim-lspconfig",
+    }, 
 }

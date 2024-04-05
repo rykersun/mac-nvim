@@ -18,3 +18,6 @@ require("vimsettings")
 -- load lazy.nvim
 require("lazy").setup("plugins")
 
+-- show lazy.nvim menu
+vim.keymap.set('n', '<leader>p', '<Cmd>Lazy<CR>')
+
