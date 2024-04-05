@@ -41,4 +41,7 @@ return {
     { -- auto pairs
         "windwp/nvim-autopairs" -- auto complete your bracket
     },
+    { -- comment
+        'numToStr/Comment.nvim', lazy = false,  -- comment your code
+    },
 }
