@@ -7,11 +7,17 @@ return {
             -- Install mason lsp and setup lspconfig including ensure_installed turple
             require('mason').setup({})
             require('mason-lspconfig').setup({
+
+
+
               ensure_installed = { -- add new language to this turple
                 "lua_ls", -- lua
                 "jdtls", -- java
                 "pylsp", -- python
               },
+
+
+
             })
             require('mason-lspconfig').setup_handlers({
               function(server)
