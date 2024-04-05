@@ -37,4 +37,7 @@ return {
     { -- lsp code action ui
         "nvim-telescope/telescope-ui-select.nvim"
     },
+    { -- auto pairs
+        "windwp/nvim-autopairs"
+    },
 }
