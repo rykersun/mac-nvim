@@ -1,5 +1,5 @@
 return {
-    'hrsh7th/nvim-cmp', 
+    'hrsh7th/nvim-cmp',
     config = function()
       -- Set up nvim-cmp.
       local cmp = require'cmp'
