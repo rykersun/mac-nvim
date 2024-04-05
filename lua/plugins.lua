@@ -41,7 +41,4 @@ return {
     { -- auto pairs
         "windwp/nvim-autopairs" -- auto complete your bracket
     },
-    { -- lspkind
-        "onsails/lspkind.nvim" -- add vscode-like icon to completion popup
-    },
 }
