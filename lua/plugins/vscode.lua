@@ -1,5 +1,5 @@
 return {
-    'Mofiqul/vscode.nvim', 
+    'Mofiqul/vscode.nvim',
     config = function()
         -- vscode theme settings
         -- For dark theme (neovim's default)
