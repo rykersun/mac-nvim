@@ -44,4 +44,7 @@ return {
     { -- comment
         'numToStr/Comment.nvim', lazy = false,  -- comment your code
     },
+    { -- lazygit
+        'kdheepak/lazygit.nvim', -- floating lazygit
+    },
 }
