@@ -12,8 +12,8 @@ return {
 
               ensure_installed = { -- add new language to this turple
                 "lua_ls", -- lua
-                "jdtls", -- java
-                "java_language_server", -- java
+                -- "jdtls", -- java
+                -- "java_language_server", -- java
                 "pylsp", -- python
                 "clangd", -- c/c++
               },
@@ -46,6 +46,7 @@ return {
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {}) -- hover doc
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {}) -- go to def
             vim.keymap.set('n', '<leader>c', vim.lsp.buf.code_action, {}) -- code action
+            vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, {}) -- rename
             vim.keymap.set('n', 'td', '<Cmd>DiagnosticsToggleVirtualText<CR>') -- toggle diagnostics
         end
     },
