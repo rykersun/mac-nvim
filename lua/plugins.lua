@@ -25,6 +25,7 @@ return {
             'rafamadriz/friendly-snippets', -- another completion sources but gives vscode-like completions
             'saadparwaiz1/cmp_luasnip', -- this plugin finished the completion
             'hrsh7th/cmp-nvim-lsp', -- i don't understand yet...
+            'hrsh7th/cmp-path', -- path completion
         },
     },
     { -- mason
