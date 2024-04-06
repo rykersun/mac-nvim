@@ -16,10 +16,18 @@ vim.o.number = true
 -- vim.o => set something
 -- vim.g => let something
 
--- rebind keys to move between window
+-- rebind window control keys
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-k>', '<C-w>k', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', {noremap = true, silent = true})
 
+-- rebind move window keys
+vim.api.nvim_set_keymap('n', '<C-H>', '<C-w>H', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-J>', '<C-w>J', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-K>', '<C-w>K', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-L>', '<C-w>L', {noremap = true, silent = true})
+
+-- rebind quit window key
+vim.api.nvim_set_keymap('n', '<C-q>', '<C-w>q', {noremap = true, silent = true})
 
