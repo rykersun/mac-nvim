@@ -48,6 +48,9 @@ return {
         'kdheepak/lazygit.nvim', -- floating lazygit
     },
     { -- better UI for neovim
-        'stevearc/dressing.nvim' -- dress up your text editor
+        'stevearc/dressing.nvim', -- dress up your text editor
+    },
+    { -- symbol outline
+        "hedyhli/outline.nvim", -- let you see everything
     },
 }
