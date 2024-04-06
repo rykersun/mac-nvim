@@ -12,6 +12,7 @@ return {
                 "vim", -- vim
                 "java", -- java
                 "python", -- python
+                "bash", -- bash
             },
 
 
