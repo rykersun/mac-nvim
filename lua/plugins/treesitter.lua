@@ -13,6 +13,8 @@ return {
                 "java", -- java
                 "python", -- python
                 "bash", -- bash
+                "c", -- c
+                "cpp", -- c++
             },
 
 

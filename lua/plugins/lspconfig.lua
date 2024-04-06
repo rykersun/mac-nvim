@@ -14,6 +14,7 @@ return {
                 "lua_ls", -- lua
                 "jdtls", -- java
                 "pylsp", -- python
+                "clangd", -- c/c++
               },
 
 
