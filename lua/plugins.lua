@@ -10,14 +10,13 @@ return {
     { -- treesitter
         "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" -- make your code more colorful
     },
-    { -- neotree
-        "nvim-neo-tree/neo-tree.nvim", -- file system explorer
-        branch = "v3.x",
-        dependencies = {
-          "nvim-lua/plenary.nvim",
-          "nvim-tree/nvim-web-devicons", -- file icon
-          "MunifTanjim/nui.nvim",
-        }
+    { -- nvimtree
+      "nvim-tree/nvim-tree.lua",
+      version = "*",
+      lazy = false,
+      dependencies = {
+        "nvim-tree/nvim-web-devicons",
+      },
     },
     { -- completions
         'hrsh7th/nvim-cmp', dependencies = { -- completion framwork
