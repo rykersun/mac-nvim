@@ -1,3 +1,5 @@
+local icon = false
+
 return {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
     config = function()
@@ -47,7 +49,10 @@ return {
                   ["<c-d>"] = "delete_buffer",
                 }
               }
-            }
+            },
+            find_files = {
+              disable_devicons = not icon
+            },
           },
         })
     end
