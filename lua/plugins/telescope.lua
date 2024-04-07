@@ -23,21 +23,25 @@ return {
           },
           pickers = {
             diagnostics = {
+              disable_devicons = not icon,
               -- theme = "dropdown",
               -- theme = "cursor",
               theme = "ivy",
             },
             live_grep = {
+              disable_devicons = not icon,
               theme = "dropdown",
               -- theme = "cursor",
               -- theme = "ivy",
             },
             lsp_document_symbols = {
+              disable_devicons = not icon,
               theme = "dropdown",
               -- theme = "cursor",
               -- theme = "ivy",
             },
             buffers = {
+              disable_devicons = not icon,
               show_all_buffers = true,
               sort_lastused = true,
               theme = "dropdown",
@@ -51,7 +55,7 @@ return {
               }
             },
             find_files = {
-              disable_devicons = not icon
+              disable_devicons = not icon,
             },
           },
         })
