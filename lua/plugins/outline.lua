@@ -1,4 +1,4 @@
-local icon = false
+local icon = EnableIcon
 
 return {
     "hedyhli/outline.nvim",

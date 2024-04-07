@@ -1,4 +1,4 @@
-local icon = false
+local icon = EnableIcon
 
 return {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
