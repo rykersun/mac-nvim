@@ -1,4 +1,5 @@
 EnableIcon = false
+EnableTheme = false
 
 -- lazy.nvim package manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
