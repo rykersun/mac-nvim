@@ -6,7 +6,7 @@ return {
             line = '<leader>c',
           },
           opleader = {
-            line = '<leader>C',
+            line = '<leader>c',
           },
         })
     end
