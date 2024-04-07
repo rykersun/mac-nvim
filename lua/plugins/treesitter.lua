@@ -10,11 +10,11 @@ return {
             ensure_installed = { -- add language to this turple
                 "lua", -- lua
                 "vim", -- vim
-                "java", -- java
-                "python", -- python
-                "bash", -- bash
-                "c", -- c
-                "cpp", -- c++
+                -- "java", -- java
+                -- "python", -- python
+                -- "bash", -- bash
+                -- "c", -- c
+                -- "cpp", -- c++
             },
 
 

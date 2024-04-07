@@ -14,12 +14,12 @@ return {
                 ---Line-comment toggle keymap
                 line = '<leader>c', -- gcc
                 ---Block-comment toggle keymap
-                block = 'gbc',
+                block = '<leader>/', -- gbc
             },
             ---LHS of operator-pending mappings in NORMAL and VISUAL mode
             opleader = {
                 ---Line-comment keymap
-                line = 'gc',
+                line = '<leader>/', -- gc
                 ---Block-comment keymap
                 block = '<leader>c', -- gb
             },
