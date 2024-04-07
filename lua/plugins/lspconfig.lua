@@ -45,7 +45,7 @@ return {
             -- Keymaps
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {}) -- hover doc
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {}) -- go to def
-            vim.keymap.set('n', '<leader>c', vim.lsp.buf.code_action, {}) -- code action
+            vim.keymap.set('n', '<leader>a', vim.lsp.buf.code_action, {}) -- code action
             vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, {}) -- rename
             vim.keymap.set('n', 'td', '<Cmd>DiagnosticsToggleVirtualText<CR>') -- toggle diagnostics
         end
