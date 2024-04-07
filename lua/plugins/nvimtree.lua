@@ -1,3 +1,5 @@
+local icon = false
+
 return {
     "nvim-tree/nvim-tree.lua",
     config = function()
@@ -16,6 +18,17 @@ return {
           },
           renderer = {
             group_empty = true,
+            icons = {
+                show = {
+                    file = icon,
+                    folder = icon,
+                    folder_arrow = icon,
+                    git = icon,
+                    modified = icon,
+                    diagnostics = icon,
+                    bookmarks = icon,
+                },
+            },
           },
           filters = {
             dotfiles = true,
