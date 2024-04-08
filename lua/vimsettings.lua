@@ -5,7 +5,7 @@ vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 
 -- enable true color
-vim.o.termguicolors = true
+vim.o.termguicolors = EnableTheme
 
 -- set leader key
 vim.g.mapleader = " "
