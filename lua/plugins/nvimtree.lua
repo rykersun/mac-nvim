@@ -12,6 +12,7 @@ return {
 
         -- keymap
         vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle!<CR>')
+        vim.keymap.set('n', '<ESC>', ':NvimTreeClose<CR>')
         vim.keymap.set('n', '?',     api.tree.toggle_help,                  opts('Help'))
 
         -- nvim-tree settings
