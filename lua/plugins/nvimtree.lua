@@ -7,7 +7,7 @@ return {
         -- functions use by keymap
         local api = require "nvim-tree.api"
         local function opts(desc)
-          return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
+          return { desc = "nvim-tree: " .. desc, noremap = true, silent = true, nowait = true }
         end
 
         -- keymap
