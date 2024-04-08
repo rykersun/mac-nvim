@@ -49,4 +49,8 @@ return {
     { -- better UI for neovim
         'stevearc/dressing.nvim', -- dress up your text editor
     },
+    { -- lualine
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
 }
