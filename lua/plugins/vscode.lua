@@ -37,13 +37,14 @@ if EnableTheme then
                     Cursor = { fg=c.vscDarkBlue, bg=c.vscLightGreen, bold=true },
                 }
             })
-            require('vscode').load()
+            -- require('vscode').load()
+            vim.cmd.colorscheme "vscode"
         end
     }
 else
     return
     {
-        -- default theme with terminal gui color
+        -- default theme
     }
 end
 
