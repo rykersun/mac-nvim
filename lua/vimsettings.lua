@@ -1,8 +1,10 @@
 -- set tab to 4 spaces
+local tab_size = 4
+
 vim.o.expandtab = true
-vim.o.tabstop = 4
-vim.o.softtabstop = 4
-vim.o.shiftwidth = 4
+vim.o.tabstop = tab_size
+vim.o.softtabstop = tab_size
+vim.o.shiftwidth = tab_size
 
 -- enable true color
 vim.o.termguicolors = EnableTheme

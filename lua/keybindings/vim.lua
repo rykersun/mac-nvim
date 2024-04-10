@@ -4,6 +4,7 @@ vim.g.mapleader = " "
 -- buffer
 vim.keymap.set('n', 'L', ':bn<CR>')
 vim.keymap.set('n', 'H', ':bp<CR>')
+vim.keymap.set('n', 'Q', ':bd<CR>')
 
 -- window
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', {noremap = true, silent = true})
