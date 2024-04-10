@@ -5,8 +5,12 @@ return {
           dependencies = { 'nvim-lua/plenary.nvim' }
     },
     { -- vscode dark theme
-        'Mofiqul/vscode.nvim' -- theme
+        'Mofiqul/vscode.nvim' -- colorscheme
     },
+
+    -- catppuccin theme
+    { "catppuccin/nvim", priority = 1000 }, -- colorscheme
+
     { -- treesitter
         "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" -- make your code more colorful
     },

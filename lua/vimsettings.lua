@@ -7,7 +7,7 @@ vim.o.softtabstop = tab_size
 vim.o.shiftwidth = tab_size
 
 -- enable true color
-vim.o.termguicolors = EnableTheme
+vim.o.termguicolors = not DisableAll
 
 -- set line number
 vim.o.number = true

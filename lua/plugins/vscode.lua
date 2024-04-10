@@ -38,7 +38,7 @@ if EnableTheme then
                 }
             })
             -- require('vscode').load()
-            vim.cmd.colorscheme "vscode"
+            -- vim.cmd.colorscheme "vscode"
         end
     }
 else

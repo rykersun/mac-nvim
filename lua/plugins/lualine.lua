@@ -5,7 +5,7 @@ if EnableTheme then
             require('lualine').setup({
                 options = {
                     icons_enabled = EnableIcon,
-                    theme = 'vscode',
+                    theme = Theme,
                     section_separators = '',
                     component_separators = { left = '', right = ''},
                 },

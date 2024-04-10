@@ -1,6 +1,17 @@
 EnableIcon = true
 EnableTheme = true
 
+Theme =
+    -- "vscode"
+    "catppuccin"
+
+DisableAll = false
+
+if DisableAll then
+    EnableIcon = false
+    EnableTheme = false
+end
+
 -- lazy.nvim package manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -26,4 +37,8 @@ require("lazy").setup("plugins")
 
 -- load plugin keybindings
 require("keybindings.plugin")
+
+if EnableTheme then
+    vim.cmd("colorscheme " .. Theme)
+end
 
