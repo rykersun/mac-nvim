@@ -18,9 +18,12 @@ vim.opt.rtp:prepend(lazypath)
 --load vim settings
 require("vimsettings")
 
+-- load vim keybindings
+require("keybindings.vim")
+
 -- load lazy.nvim
 require("lazy").setup("plugins")
 
--- show lazy.nvim menu
-vim.keymap.set('n', '<leader>p', '<Cmd>Lazy<CR>')
+-- load plugin keybindings
+require("keybindings.plugin")
 
