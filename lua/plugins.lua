@@ -7,10 +7,15 @@ return {
     { -- vscode dark theme
         'Mofiqul/vscode.nvim' -- colorscheme
     },
-
-    -- catppuccin theme
-    { "catppuccin/nvim", priority = 1000 }, -- colorscheme
-
+    { -- catppuccin theme
+        "catppuccin/nvim", priority = 1000 -- colorscheme
+    },
+    { -- tokyonight theme
+        "folke/tokyonight.nvim", -- colorscheme
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
     { -- treesitter
         "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" -- make your code more colorful
     },

@@ -3,7 +3,8 @@ EnableTheme = true
 
 Theme =
     -- "vscode"
-    "catppuccin"
+    -- "catppuccin"
+    "tokyonight"
 
 DisableAll = false
 
