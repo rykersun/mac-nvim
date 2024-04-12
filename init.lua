@@ -1,5 +1,6 @@
 EnableIcon = true
 EnableTheme = true
+Transparency = true
 
 Theme =
     -- "vscode"
@@ -29,6 +30,9 @@ vim.opt.rtp:prepend(lazypath)
 
 --load vim settings
 require("vimsettings")
+
+-- load neovide settings
+require("gui.neovide")
 
 -- load vim keybindings
 require("keybindings.vim")
