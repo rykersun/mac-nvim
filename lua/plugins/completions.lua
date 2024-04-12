@@ -26,7 +26,8 @@ return {
         },
         window = {
           completion = cmp.config.window.bordered(),
-          documentation = cmp.config.window.bordered(),
+          -- documentation = cmp.config.window.bordered(), -- enable documentation
+          documentation = cmp.config.disable, -- disable documentation
         },
         completion = {
           completeopt = 'menu,menuone,noinsert'
