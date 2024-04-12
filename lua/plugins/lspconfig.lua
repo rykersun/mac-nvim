@@ -13,7 +13,6 @@ return {
               ensure_installed = { -- add new language to this turple
                 "lua_ls", -- lua
                 -- "jdtls", -- java
-                -- "java_language_server", -- java
                 -- "pylsp", -- python
                 -- "clangd", -- c/c++
               },
