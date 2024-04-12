@@ -47,7 +47,7 @@ return {
         "nvim-telescope/telescope-ui-select.nvim" -- better ui for lsp code action
     },
     { -- auto pairs
-        "windwp/nvim-autopairs" -- auto complete your bracket
+        "windwp/nvim-autopairs", -- auto complete your bracket
     },
     { -- comment
         'numToStr/Comment.nvim', lazy = false,  -- comment your code
