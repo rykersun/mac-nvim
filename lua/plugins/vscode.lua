@@ -14,7 +14,7 @@ if EnableTheme then
                 -- style = 'light'
 
                 -- Enable transparent background
-                transparent = true,
+                transparent = Transparency,
 
                 -- Enable italic comment
                 italic_comments = true,
