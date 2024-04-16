@@ -1,3 +1,14 @@
+-- index
+
+-- package manager -- OK
+-- mason -- OK
+-- comment -- OK
+-- completions
+-- lazygit -- OK
+-- lspconfig
+-- nvimtree
+-- telescope
+
 -- show lazy.nvim menu
 vim.keymap.set('n', '<leader>p', '<Cmd>Lazy<CR>')
 
@@ -45,3 +56,6 @@ require('Comment').setup({ -- when <C-/> not working
         extra = true,
     },
 })
+
+-- lazygit keymaps
+vim.keymap.set('n', '<leader>l', '<Cmd>LazyGitCurrentFile<CR>')
