@@ -1,14 +1,18 @@
 -- installed plugins (Plugin list)
 return {
     { -- telescope
-        'nvim-telescope/telescope.nvim', tag = '0.1.6', -- a very powerful fuzzy file finder
-          dependencies = { 'nvim-lua/plenary.nvim' }
+        'nvim-telescope/telescope.nvim', -- a very powerful fuzzy file finder
+        tag = '0.1.6',
+        dependencies = {
+            'nvim-lua/plenary.nvim'
+        },
     },
     { -- vscode dark theme
-        'Mofiqul/vscode.nvim' -- colorscheme
+        'Mofiqul/vscode.nvim', -- colorscheme
     },
     { -- catppuccin theme
-        "catppuccin/nvim", priority = 1000 -- colorscheme
+        "catppuccin/nvim",
+        priority = 1000, -- colorscheme
     },
     { -- tokyonight theme
         "folke/tokyonight.nvim", -- colorscheme
@@ -17,18 +21,20 @@ return {
         opts = {},
     },
     { -- treesitter
-        "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" -- make your code more colorful
+        "nvim-treesitter/nvim-treesitter",
+        build = ":TSUpdate", -- make your code more colorful
     },
     { -- nvimtree
-      "nvim-tree/nvim-tree.lua",
-      version = "*",
-      lazy = false,
-      dependencies = {
-        "nvim-tree/nvim-web-devicons",
-      },
+        "nvim-tree/nvim-tree.lua",
+        version = "*",
+        lazy = false,
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
     },
     { -- completions
-        'hrsh7th/nvim-cmp', dependencies = { -- completion framwork
+        'hrsh7th/nvim-cmp',
+        dependencies = { -- completion framwork
             'L3MON4D3/LuaSnip', -- completion sources
             'rafamadriz/friendly-snippets', -- another completion sources but gives vscode-like completions
             'saadparwaiz1/cmp_luasnip', -- this plugin finished the completion
@@ -36,7 +42,8 @@ return {
         },
     },
     { -- mason
-        "williamboman/mason.nvim", dependencies = { -- mason lsp
+        "williamboman/mason.nvim",
+        dependencies = { -- mason lsp
             "williamboman/mason-lspconfig.nvim", -- gives mason lsp en ensure_installed turple
         },
     },
@@ -50,7 +57,8 @@ return {
         "windwp/nvim-autopairs", -- auto complete your bracket
     },
     { -- comment
-        'numToStr/Comment.nvim', lazy = false,  -- comment your code
+        'numToStr/Comment.nvim',
+        lazy = false,  -- comment your code
     },
     { -- lazygit
         'kdheepak/lazygit.nvim', -- floating lazygit
@@ -60,6 +68,8 @@ return {
     },
     { -- lualine
         'nvim-lualine/lualine.nvim',
-        dependencies = { 'nvim-tree/nvim-web-devicons' }
+        dependencies = {
+            'nvim-tree/nvim-web-devicons',
+        },
     },
 }
