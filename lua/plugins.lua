@@ -72,4 +72,7 @@ return {
             'nvim-tree/nvim-web-devicons',
         },
     },
+    { -- outline
+        "hedyhli/outline.nvim",
+    },
 }
