@@ -6,8 +6,8 @@ Theme =
     -- "vscode"
     -- "catppuccin"
     -- "onedark"
-    -- "github_dark"
-    "gruvbox"
+    "github_dark"
+    -- "gruvbox"
     -- "tokyonight"
 
 DisableAll = false
