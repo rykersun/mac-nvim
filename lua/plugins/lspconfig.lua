@@ -26,6 +26,9 @@ return {
                 lspconfig[server].setup({capabilities = capabilities}) -- auto setup the languages in above turple
               end,
             })
+            vim.diagnostic.config({
+              virtual_text = false,
+            })
 
             -- Command to toggle inline diagnostics
             vim.api.nvim_create_user_command(
