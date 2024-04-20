@@ -25,6 +25,10 @@ return {
         "ellisonleao/gruvbox.nvim",
         priority = 1000,
     },
+    { -- oxocarbon theme
+        'nyoom-engineering/oxocarbon.nvim',
+        priority = 1000,
+    },
     { -- tokyonight theme
         "folke/tokyonight.nvim", -- colorscheme
         lazy = false,
