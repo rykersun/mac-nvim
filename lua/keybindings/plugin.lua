@@ -8,12 +8,27 @@
 -- lspconfig
 -- nvimtree
 -- telescope
+-- outline -- OK
 
 -- show lazy.nvim menu
 vim.keymap.set('n', '<leader>p', '<Cmd>Lazy<CR>')
 
+
 -- show mason menu
 vim.keymap.set('n', '<leader>m', '<Cmd>Mason<CR>')
+
+
+-- lazygit keymaps
+vim.keymap.set('n', '<leader>l', '<Cmd>LazyGitCurrentFile<CR>')
+
+
+-- outline keymaps
+vim.keymap.set("n", "<leader>o", "<cmd>Outline<CR>", {desc = "Toggle Outline"})
+
+
+
+
+
 
 -- keymaps for comment code
 require('Comment').setup({ -- vscode-like keymaps
@@ -57,5 +72,5 @@ require('Comment').setup({ -- when <C-/> not working
     },
 })
 
--- lazygit keymaps
-vim.keymap.set('n', '<leader>l', '<Cmd>LazyGitCurrentFile<CR>')
+
+
