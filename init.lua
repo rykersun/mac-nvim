@@ -5,7 +5,10 @@ Transparency = true
 Theme =
     -- "vscode"
     -- "catppuccin"
-    "tokyonight"
+    -- "onedark"
+    -- "github_dark"
+    "gruvbox"
+    -- "tokyonight"
 
 DisableAll = false
 

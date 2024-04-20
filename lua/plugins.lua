@@ -14,6 +14,17 @@ return {
         "catppuccin/nvim",
         priority = 1000, -- colorscheme
     },
+    { -- onedarkpro theme
+        "olimorris/onedarkpro.nvim",
+        priority = 1000, -- Ensure it loads first
+    },
+    { -- github theme
+        'projekt0n/github-nvim-theme',
+    },
+    { -- gruvbox theme
+        "ellisonleao/gruvbox.nvim",
+        priority = 1000,
+    },
     { -- tokyonight theme
         "folke/tokyonight.nvim", -- colorscheme
         lazy = false,
