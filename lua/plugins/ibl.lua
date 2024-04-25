@@ -1,3 +1,4 @@
+if RainbowIndent then
 return {
     "lukas-reineke/indent-blankline.nvim",
     config = function ()
@@ -43,3 +44,10 @@ return {
 
     end
 }
+else
+    return {
+        "lukas-reineke/indent-blankline.nvim",
+        config = function ()
+        end
+    }
+end

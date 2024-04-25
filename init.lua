@@ -1,15 +1,16 @@
 EnableIcon = true
 EnableTheme = true
 Transparency = true
+RainbowIndent = false
 
 Theme =
     -- "vscode"
     -- "catppuccin"
     -- "onedark"
     -- "github_dark"
-    -- "gruvbox"
+    "gruvbox"
     -- "tokyonight"
-    "oxocarbon"
+    -- "oxocarbon"
 
 DisableAll = false
 
